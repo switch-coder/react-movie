@@ -1,0 +1,25 @@
+.nav {
+  height: 70px;
+  padding: 10px;
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.nav a {
+  margin-right: 20px;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  vertical-align: middle;
+  opacity: 1;
+  line-height: 45px;
+  transition: 0.2s;
+}
+
+.nav a:hover {
+  color: dimgray;
+  font-size: 1.8em;
+}
